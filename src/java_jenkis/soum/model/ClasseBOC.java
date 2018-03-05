@@ -6,6 +6,7 @@ public class ClasseBOC {
 	private NiveauEnum niveau;
 	private EcoleEnum ecole;
 	private java.util.List<Etudiant> etudiants;
+	//test erwan
 	
 	public ClasseBOC(NiveauEnum niveau,EcoleEnum ecole){
 		niveau = this.niveau;
