@@ -6,3 +6,4 @@ public enum EcoleEnum {
 	SUPDECOM,
 	IEFT
 }
+// TEST Andy
