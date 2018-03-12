@@ -35,6 +35,6 @@ public class ClasseBOC {
 	public void setEcole(EcoleEnum ecole) {
 		this.ecole = ecole;
 	}
-	
+//test
 	
 }
