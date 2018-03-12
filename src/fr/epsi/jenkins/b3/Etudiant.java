@@ -9,6 +9,9 @@ public class Etudiant extends Personne{
 	private int numeroEtudiant;
 	private ClasseBOC classeBOC;
 	
+	public Etudiant() {
+	}
+	
 	public Etudiant(String nom, String prenom, int age, int numeroEtudiant,ClasseBOC classeBOC) {
 		super(nom, prenom, age);
 		numeroEtudiant = this.numeroEtudiant;

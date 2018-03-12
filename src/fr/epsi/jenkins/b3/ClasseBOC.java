@@ -7,6 +7,10 @@ public class ClasseBOC {
 	private EcoleEnum ecole;
 	private List<Etudiant> etudiants;
 	
+	public ClasseBOC() {
+		
+	}
+	
 	public ClasseBOC(NiveauEnum niveau,EcoleEnum ecole){
 		niveau = this.niveau;
 		ecole = this.ecole;

@@ -3,6 +3,10 @@ package fr.epsi.jenkins.b3;
 public class Personne {
 	private String nom,prenom;
 	private int age;
+
+	public Personne() {
+		
+	}
 	
 	public Personne(String nom,String prenom,int age){
 		nom = this.nom;
