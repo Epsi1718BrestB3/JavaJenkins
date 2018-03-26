@@ -13,7 +13,7 @@ import junit.framework.TestCase;
 class EtudiantTest extends TestCase {
 
 	@Test
-	void testAValiderBac2() {
+	void testAValiderBac2s() {
 		ClasseBOC classeBOC = new ClasseBOC();
 		Etudiant etudiant = new Etudiant();
 		classeBOC.setNiveau(NiveauEnum.B3);
