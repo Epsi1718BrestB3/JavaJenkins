@@ -30,11 +30,30 @@ public class Personne {
 	}
 
 	public void setDateNaissance(String dateNaissance) {
-		this.dateNaissance = dateNaissance;
+		if (formatDateValide(dateNaissance)) 
+			this.dateNaissance = dateNaissance;
 	}
 
+	/**
+	 * Renvoie l'age de la personne calculé à partir de
+	 * sa dateNaissance au format ("dd/MM/YYYY")
+	 * @return
+	 */
 	public int getAge() {
+		//TODO
 		return 0;
+	}
+
+	/**
+	 * Renvoie true si le format de dateNaissance correspond bien
+	 * à "dd/MM/YYYY"
+	 * et false sinon
+	 * @param dateNaissance
+	 * @return
+	 */
+	private boolean formatDateValide(String dateNaissance) {
+		// TODO Auto-generated method stub
+		return false;
 	}
 
 	@Override

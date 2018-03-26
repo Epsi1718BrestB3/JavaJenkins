@@ -49,5 +49,4 @@ public class Etudiant extends Personne{
 		return niveauEnum == NiveauEnum.B3 || niveauEnum == NiveauEnum.I4 || niveauEnum == NiveauEnum.I5;  
 	}
 	
-	
 }
