@@ -12,11 +12,13 @@ public class Etudiant extends Personne{
 	public Etudiant() {
 	}
 	
-	public Etudiant(String nom, String prenom, int age, int numeroEtudiant,ClasseBOC classeBOC) {
-		super(nom, prenom, age);
+	public Etudiant(String nom, String prenom, String dateNaissance, int numeroEtudiant,ClasseBOC classeBOC) {
+		super();
+		setNom(nom);
+		setPrenom(prenom);
+		setDateNaissance(dateNaissance);
 		numeroEtudiant = this.numeroEtudiant;
 		classeBOC = this.classeBOC;
-		// TODO Auto-generated constructor stub
 	}
 
 	public int getNumeroEtudiant() {
