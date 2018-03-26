@@ -53,7 +53,7 @@ public class Personne {
 	 */
 	private boolean formatDateValide(String dateNaissance) {
 		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 	@Override
