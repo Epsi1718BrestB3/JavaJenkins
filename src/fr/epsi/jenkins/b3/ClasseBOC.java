@@ -6,6 +6,7 @@ public class ClasseBOC {
 	private NiveauEnum niveau;
 	private EcoleEnum ecole;
 	private List<Etudiant> etudiants;
+	//test erwan
 	
 	public ClasseBOC() {
 		
