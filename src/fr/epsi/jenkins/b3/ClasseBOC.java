@@ -3,9 +3,11 @@ package fr.epsi.jenkins.b3;
 import java.util.List;
 
 public class ClasseBOC {
+	
 	private NiveauEnum niveau;
 	private EcoleEnum ecole;
 	private List<Etudiant> etudiants;
+	private Cours[] cours;
 	
 	public ClasseBOC() {
 		
@@ -40,5 +42,13 @@ public class ClasseBOC {
 		this.ecole = ecole;
 	}
 //test
+
+	public Cours[] getCours() {
+		return cours;
+	}
+
+	public void setCours(Cours[] cours) {
+		this.cours = cours;
+	}
 	
 }
